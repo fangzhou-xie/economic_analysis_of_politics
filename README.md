@@ -48,7 +48,7 @@ this model and the result is in eval_results.txt file, which reports as follows:
 > eval_accuracy = 0.8078547\
 > eval_loss = 0.49700302\
 > global_step = 2043\
-> loss = 0.49700302\
+> loss = 0.49700302
 
 Further I chose two articles from Wikipedia, namely 
 [Democratic Party](https://en.wikipedia.org/wiki/Democratic_Party_(United_States)) and 
