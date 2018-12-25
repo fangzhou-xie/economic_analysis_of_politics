@@ -11,7 +11,7 @@ The training setting is as follows:
 > export BERT_BASE_DIR=/path/to/bert/uncased_L-12_H-768_A-12\
 > export POLI_DIR=/path/to/rwcp
 > 
-> python run_classifier_1.py \\
+> python run_classifier_1.py \\\
 >  --task_name=POLI \\
 >  --do_train=true \\
 >  --do_eval=true \\
