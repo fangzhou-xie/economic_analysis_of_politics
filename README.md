@@ -13,9 +13,9 @@ The training setting is as follows:
 > export POLI_DIR=/path/to/rwcp
 > 
 > python run_classifier_1.py \
-
+>
 >  --task_name=POLI \
-
+>
 >  --do_train=true \
 >  --do_eval=true \
 >  --data_dir=$POLI_DIR/ \
