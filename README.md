@@ -40,7 +40,9 @@ And the testing setting is:
 >   --output_dir=$POLI_DIR/poli_predict/
 
 
-The training set is *all.tsv*, where each column was seperated by Tab ('\t'), instead of CSV file (using ',').
+I have downloaded data from [Conservapedia](https://www.conservapedia.com/Main_Page)
+and [RationalWiki](https://rationalwiki.org/wiki/Main_Page), and select pages which contains word "politic".
+Those pages are then seperated into sentences and form the training set, *all.tsv*.
 The whole file was splited into three (*test.tsv*, *train.tsv*, *dev.tsv*), which is required by the classifier model.
 I split the whole set into three by *wikidiv.py*. After training, the *test.tsv* set is used to evaluate accuracy of 
 this model and the result is in *eval_results.txt* file, which reports as follows:
