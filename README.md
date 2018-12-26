@@ -2,7 +2,8 @@
 
 This repo consists of some files related to the term paper for Economic Analysis of Politics at NYU.
 
-For the empitical part, I have basically based on [BERT](https://github.com/google-research/bert#fine-tuning-with-bert) model,
+For the empitical part, I have basically based on 
+[BERT](https://github.com/google-research/bert#fine-tuning-with-bert) model (BERT-Base, Uncased version),
 and made some fine-tuning modification, as shown in the *run_classifer_1.py*.
 However, this file cannot be run by itself, and must be companied by others at BERT website.
 
@@ -56,3 +57,5 @@ Further I chose two articles from Wikipedia, namely
 [Democratic Party](https://en.wikipedia.org/wiki/Democratic_Party_(United_States)) and 
 [Republican Party](https://en.wikipedia.org/wiki/Republican_Party_(United_States)), 
 and classify each sentence. Results are in *dem_test_results.tsv* and *rep_test_results.tsv*, respectively.
+Those results file and *dem_test.tsv*, *rep_test.tsv* are in one-to-one correspondence at a sentence-level.
+In other words, the line number of sentence indicates where its result locate in the *_result.tsv* file.
